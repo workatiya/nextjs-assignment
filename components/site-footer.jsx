@@ -70,7 +70,7 @@ export default function SiteFooter() {
       <div>
 
         {/* Menu */}
-        <nav className="grid grid-cols-6 gap-x-16 pb-10">
+        <nav className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 lg:gap-x-16 pb-10">
           {columns.map((col, i) => (
             <ul key={i} className="space-y-8">
               {col.map((item) => (
